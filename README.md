@@ -1,7 +1,7 @@
 # DeployPrinterNightmare
 C# tool for installing a shared network printer abusing the PrinterNightmare bug to allow other network machines easy privesc!
 
-Discovered and demonstraited by the one and only [Benjamin Delpy]("https://twitter.com/gentilkiwi")
+Discovered and demonstraited by the one and only [Benjamin Delpy](https://twitter.com/gentilkiwi)
 
 ```
 C:\Users\Flangvik\Desktop>FakePrinter.exe 32mimispool.dll 64mimispool.dll EasySystemShell
@@ -30,7 +30,7 @@ Add-Printer -ConnectionName $fullprinterName
 # Credits and ressources
 
 *  @shreedee => https://github.com/shreedee/EVOPrinter/blob/master/printerDriver/SpoolerHelper.cs
-*  [Benjamin Delpy]("https://twitter.com/gentilkiwi") => https://twitter.com/gentilkiwi/status/1420896231648288772
+*  [Benjamin Delpy](https://twitter.com/gentilkiwi) => https://twitter.com/gentilkiwi/status/1420896231648288772
 * https://pentestlab.blog/2021/08/02/universal-privilege-escalation-and-persistence-printer/
 * https://docs.microsoft.com/en-us/windows/win32/printdocs/addprinterdriverex
 * https://github.com/freefirex
